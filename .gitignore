@@ -1,0 +1,6 @@
+.vscode/
+
+src/*
+!src/*.c
+!src/*.h
+*.out
