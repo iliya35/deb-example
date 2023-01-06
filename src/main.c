@@ -10,18 +10,12 @@ const char version[] = VERSION;
 
 int main(int argc, char *argv[])
 {
-    
-    int count;
-    printf("Количество аргументов, указанных в командной строке: %d\n", argc - 1);
-    for (count = 1; count < argc; count++)
-        printf("%d: %s\n", count, argv[count]) ;
-    printf("%d\n", argc) ;
-    if (argv[1][0] == '-' && argc >= 2)
+    if (argc >= 2 && argv[1][0] == '-')
     {
         switch (argv[1][1])
         {
         case 'v':
-            printf("Build time: %s.\n",build_time);
+            printf("Build time: %s\n",build_time);
             printf("Version is %s\n", version) ;
             break;
         default:
@@ -31,7 +25,6 @@ int main(int argc, char *argv[])
         
         }
     } else {
-        printf (" \n" ) ;
         printf("Hello, world!\n");
     }
     return 0;

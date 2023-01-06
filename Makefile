@@ -12,7 +12,7 @@ LIBS       = -L.
 
 GCC    = $(CC)  $(CFLAGS)   $(LIBS) $(INCPATH)
 
-all: src/$(TARGET)
+all: clean src/$(TARGET)
 
 src/$(TARGET): src/main.c
 	@echo "CFLAGS=$(CFLAGS)" | \
