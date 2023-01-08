@@ -11,4 +11,5 @@ Version: 1.2
 Architecture: any
 Multi-Arch: foreign
 Depends: libc6, vim, ${misc:Depends}, ${shlibs:Depends}
-Description: Print "Hello, World!" line
+Description: example debian package
+  The helloworld program print "Hello, World!" line
