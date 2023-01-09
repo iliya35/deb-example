@@ -1,6 +1,20 @@
-helloworld (1.2) eoan; urgency=low
+helloworld (1.2-1) eoan; urgency=medium
 
-  * Initial release. Closes: #1
+  * Initial release 1. Closes: #3
+    <Fix some bugs>
+
+ -- Iliya Gorshkov <igorshkov@k-tech.ru>  Sun, 08 Jan 2023 07:21:52 +0300
+
+helloworld (1.1) unstable; urgency=low
+
+  * Initial release 1. Closes: #2
+    <Fix some bugs>
+
+ -- Iliya Gorshkov <igorshkov@k-tech.ru>  Sun, 08 Jan 2023 07:21:52 +0300
+
+helloworld (1.0) unstable; urgency=low
+
+  * Initial release 1. Closes: #1
     <Fix some bugs>
 
  -- Iliya Gorshkov <igorshkov@k-tech.ru>  Sun, 08 Jan 2023 07:21:52 +0300

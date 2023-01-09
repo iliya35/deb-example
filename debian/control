@@ -7,7 +7,6 @@ Standards-Version: 4.1.4
 Homepage: https://github.com/iliya35/helloworld
 
 Package: helloworld
-Version: 1.2
 Architecture: any
 Multi-Arch: foreign
 Depends: libc6, vim, ${misc:Depends}, ${shlibs:Depends}

@@ -4,3 +4,11 @@ src/*
 !src/*.c
 !src/*.h
 *.out
+
+debian/
+!debian/control
+!debian/rules
+!debian/changelog
+
+out/
+
