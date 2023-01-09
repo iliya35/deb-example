@@ -3,10 +3,12 @@ PKG_NAME="helloworld"
 VERSION=$(cat VERSION)
 ARCH_NAME="${PKG_NAME}-${VERSION}.tar.gz"
 
+
 DEBUG=pdfbmeclak
 
+echo 11 > debian/compat
 debmake -y -p ${PKG_NAME} \
-    -u ${VERSION} -x1 -t \
+    -u ${VERSION} -r 1 -x1 -t \
     -e "igorshkov@k-tech.ru" \
     -f "Iliya Gorshkov" \
     -b":bin" \
